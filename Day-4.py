@@ -1,3 +1,4 @@
+# this only works for single duplicate and missing numbers ╯︿╰
 def findErrorNums(nums):
     n = len(nums)
 
