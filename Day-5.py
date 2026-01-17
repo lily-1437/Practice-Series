@@ -22,3 +22,12 @@ def smallerNumbersThanCurrent(nums):
 nums = [8,1,2,2,3]
 output = smallerNumbersThanCurrent(nums)
 print(output)
+'''to find duplicate numbers
+numbers = [0,1,3,2,1,1,4,3]
+unique = []
+
+for num in numbers:
+    if num not in unique:
+        unique.append(num)
+print(unique)
+'''
